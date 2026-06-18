@@ -1,7 +1,5 @@
 import osmnx as ox
-import networkx as nx
 import time
-import random
 import heapq
 import math
 from datetime import datetime
