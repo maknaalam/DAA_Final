@@ -21,17 +21,21 @@ In `path.py`, the graph is generated using the following parameter:
 
 ## ⚙️ Environment Setup & Installation
 To run this project, you need Python 3.8+ installed. It is highly recommended to run this inside an isolated virtual environment to prevent library conflicts.
-
-**1. Create and activate a virtual environment (Windows/PowerShell):**
+**1. Download the Repository:**
+```
+git clone https://github.com/maknaalam/DAA_Final.git
+cd DAA_Final
+```
+**2. Create and activate a virtual environment (Windows/PowerShell):**
 ```
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
-**2. Install the required dependencies:**
+**3. Install the required dependencies:**
 ```
 pip install osmnx networkx mapclassify folium matplotlib
 ```
-**3. Run the Dispatch Program**
+**4. Run the Dispatch Program**
 ```
 python path.py
 ```
