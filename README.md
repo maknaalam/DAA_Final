@@ -19,7 +19,7 @@ In `path.py`, the graph is generated using the following parameter:
 * **`dist=2000` (The 2km Radius):** This specific radius was chosen because it perfectly encapsulates the entire ITS campus (from the main gate/Bundaran to the deepest engineering departments and the dormitories). Crucially, it also captures the immediate surrounding student housing areas (such as Keputih and Gebang), which represent the core customer base for our independent laundry facility.
 * **`network_type='all'`:** Unlike standard car GPS routing, this parameter forces the graph to include pedestrian pathways, service alleys, and campus driveways, ensuring our delivery riders can route directly to the specific dormitory doors or any specific starting point.
 
-## ⚙️ Environment Setup & Installation
+## Environment Setup & Installation
 To run this project, you need Python 3.8+ installed. It is highly recommended to run this inside an isolated virtual environment to prevent library conflicts.
 **1. Download the Repository:**
 ```
